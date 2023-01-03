@@ -1,2 +1,2 @@
+opencv-python
 facenet_pytorch
-cv2
