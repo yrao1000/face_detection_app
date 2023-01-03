@@ -22,8 +22,8 @@ if __name__ == "__main__":
     # app description
     st.title('App to :red[Detect] :blue[Faces]')
     
-    full_image = Image.open('/Users/yash/Desktop/face_detection_app/face.png') 
-    face_image = Image.open('/Users/yash/Desktop/face_detection_app/full.png')
+    full_image = Image.open('face.png') 
+    face_image = Image.open('full.png')
     col1,col2 = st.columns(2)
     with col1:
         st.subheader('Full image')
